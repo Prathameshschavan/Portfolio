@@ -1,0 +1,97 @@
+*{
+    font-family:  sans-serif;
+}
+
+#logo{
+    width:6%;
+    border-radius: 50px;
+    border: 1px solid black;
+ 
+}
+
+#nav-menu{
+    /* border: 2px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%  2%  1.5% 4%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#nav1{
+    align-items: center;
+    gap: 2%;
+    /* border: 2px solid red; */
+    
+}
+
+#nav1>h1{
+    font-size: 110%;
+    font-weight: bold;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#nav1>h1:hover{
+    color: #facf0f;
+}
+
+#nav2{
+    justify-content: space-evenly;
+    width:100%;
+    font-size: 100%;
+    /* border: 2px solid red; */
+    color: black;
+}
+
+#nav2>a>button{
+    /* color: red; */
+    background-color: white;
+    transition: 1s;
+    width: 10%;
+    /* border: 2px solid red; */
+}
+
+#nav2>a>:hover{
+    color: #facf0f;
+}
+
+@media only screen and  (max-width: 1000px) and (min-width:10px){
+    #nav-menu{
+        padding-right: 6%;
+        
+    }
+
+    #drop{
+        width: 130%;
+        /* border: 2px solid red; */
+    
+    }
+
+    #drop>a>button{
+        display: block;
+        margin: auto;
+        background: transparent;
+        width: 80%;
+        /* border: 2px solid red; */
+        transition: 1s;
+    }
+
+    #drop>a>button:hover{
+      background-color: #facf0f;
+    }
+
+    element.style {
+        visibility: visible;
+        min-width: max-content;
+        --popper-transform-origin: top center;
+        position: absolute;
+        inset: 0px 0px 0px 0px;
+        margin: auto;
+        transform: translate3d(0, 64px, 0px);
+    }
+
+}

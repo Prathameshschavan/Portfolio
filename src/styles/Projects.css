@@ -1,0 +1,147 @@
+#emptySpan{
+    content: ' ';
+    position: static;
+    height: 0px;
+    width: 2rem;
+    color: #facf0f;
+    font-weight: bolder;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+#ProjectMain{
+    /* border: 2px solid red; */
+    padding: 8% 8% 0% 8%;
+}
+
+#projectbox1>h2{
+    margin-bottom: 2%;
+    color: black;
+
+}
+
+#projectbox1>p{
+    width: 60%;
+    font-size: 110%;
+    color: #666;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#projectbox1{
+    margin-bottom: 10%;
+}
+
+.project-card{
+    display: block;
+    padding-bottom: 15%;
+}
+
+.project-card>div:nth-child(1){
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+
+
+
+.project-card>div:nth-child(2){
+ width: 50%;
+ text-align: left;
+ padding-left: 5%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 10%;
+ color: black;
+ font-size: 25px;
+ /* border: 2px solid blue; */
+ 
+}
+
+.project-card>div:nth-child(2)>div{
+    /* display: flex;/ */
+    gap: 5%;
+}
+
+
+
+
+
+.project-card>div:nth-child(2)>div>a>button{
+    background-color: #facf0f;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    width: 25%;
+    padding: 4% 20%;
+    position: static;
+    letter-spacing: 2px;
+    transition: 1s;
+    margin-left: 2%;
+    /* border: 2px solid red; */
+}
+
+.project-card>div:nth-child(2)>div>a>button:hover{
+    letter-spacing: 5px;
+    /* color: #fff; */
+}
+
+#drawerBody>a{
+    width: 100%;
+}
+
+#drawerBody>a>button{
+    width: 100%;
+    background-color: white;
+}
+
+#drawerBody>a>button:hover{
+   background-color: #e1dfdf;
+}
+
+.websitePhoto{
+    width:74.6%;
+    height:fit-content;
+    margin: -47.5% 0 0 12.8%;
+    border-radius: 1px;
+}
+
+@media only screen and  (max-width: 1000px) and (min-width:10px) {
+    
+.project-card{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card>div:nth-child(1){
+    width: 100%;
+    /* border: 2px solid red; */
+}  
+
+.project-card>div:nth-child(2){
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+    margin-top: 17%;
+    font-size: 100%;
+    align-items: left;
+    gap: 20px;
+}  
+.websitePhoto{
+    border: 2px solid red;
+    width:75%;
+    height:fit-content;
+    margin: -54.6% 0 0 12.7%;
+    border-radius: 1px;
+}
+
+.laptopImg{
+    width: 100%;
+    height: 90%;
+}
+    
+}    
+
+.laptopImg{
+    width: 100%;
+    height: 95%;
+}

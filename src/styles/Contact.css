@@ -1,0 +1,124 @@
+#contact{
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+    padding: 8%;
+}
+
+#emptySpan{
+    content: ' ';
+    position: static;
+    height: 0px;
+    width: 2rem;
+    color: #facf0f;
+    font-weight: bolder;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#contact>div:nth-child(1){
+
+ width: 60%;
+ margin: auto;
+ margin-bottom: 8%;
+}
+
+#contact>div:nth-child(1)>h2{
+    margin-bottom: 4%;
+}
+
+#contact>div:nth-child(1)>p{
+   margin-top: 8%;
+}
+
+#contact>div:nth-child(2){
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin: 0 18%;
+padding: 3%;
+background-color: white;
+
+
+}
+
+#contact>div:nth-child(2)>form>div{
+    /* border: 2px solid red; */
+    position: static;
+    
+}
+
+#contact>div:nth-child(2)>form>div>label{
+    margin: 5% 0 1% 0;
+    font-weight: 700;
+    color: #616161;
+    position: static;
+}
+
+#contact>div:nth-child(2)>form>div>input{
+    padding: 5% ;
+    background-color: #F0F0F0;
+    font-weight: 700;
+     position: static;
+  
+}
+
+#contact>div:nth-child(2)>form>div>input::placeholder{
+    color: #999999;
+    font-weight: 700;
+    position: static;
+}
+
+#contact>div:nth-child(2)>form>div>textarea{
+    resize: none;
+    margin-bottom: 5%;
+    background-color: #F0F0F0;
+    padding: 5%;
+    font-weight: 700;
+    position: static;
+}
+
+#contact>div:nth-child(2)>form>div>textarea::placeholder{
+    color: #999999;
+    font-weight: 700;
+    position: static;
+}
+
+
+#submitForm{
+    /* border: 2px solid red; */
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: black; 
+     margin: 0 0 0 75%; 
+    transition: 1s;
+    position: static;
+   
+}
+
+
+#submitForm:hover{
+    letter-spacing: 6px;
+}
+
+
+@media only screen and  (max-width: 1000px) and (min-width:10px) {
+    #contact>div:nth-child(1){
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    #contact>div:nth-child(2){
+      width: 100%;
+     margin: auto;
+        
+    }
+
+    #submitForm{
+        font-size: 2px;
+        letter-spacing: 1px;
+        padding: 1% ;
+        width: 25%;
+    }
+}    
