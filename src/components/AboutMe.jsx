@@ -1,4 +1,5 @@
 import React from 'react'
+// import "../styles/AboutMe.css"
 import "../styles/AboutMe.css"
 import resume from "../images/Prathamesh_Chavan_CV.pdf"
 import {Flex,Box,Heading,Text, Button} from "@chakra-ui/react"

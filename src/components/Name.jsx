@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/Name.css";
-import { Box, Heading, Button, Flex } from "@chakra-ui/react";
+import { Box, Heading, Button, Flex, Text } from "@chakra-ui/react";
 import PhotoPNG from "../images/PhotoPNG.jpg"
 export default function Name() {
   
   return (
     <div id="home">
-         <div id="NameMain">
+    <div id="NameMain">
       
       <Flex id="Social">
         <a id="contact-linkedin" href="https://www.linkedin.com/in/prathamesh-chavan-5532261b4/" target={"_blank"}>
@@ -28,21 +28,22 @@ export default function Name() {
         />
         </a>
       </Flex>
-      <Box id="nameDetails">
+
+      <Flex id="nameDetails">
         <Box>
         <Heading id="user-detail-name" as={"h1"}>HEY, I'M CHAVAN PRATHAMESH</Heading>
-        <p id="user-detail-intro">
+        <Text id="user-detail-intro">
           A Frontend focused Web Developer building the Frontend of Websites
           and Web Applications that leads to the success of the overall
           product
-        </p>
+        </Text>
        <a href="#projects"> <Button>PROJECTS</Button></a>
 
         </Box>
         
         <img className="home-img" src={PhotoPNG} alt="photo" />
 
-      </Box>
+      </Flex>
 
       
     
